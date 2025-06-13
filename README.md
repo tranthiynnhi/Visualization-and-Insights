@@ -1,48 +1,48 @@
 # MÔ TẢ DỮ LIỆU                                            
-**Row ID:** Mã số dòng – định danh duy nhất cho mỗi dòng dữ liệu. Không có ý nghĩa kinh doanh, chỉ dùng để đánh dấu từng dòng.
+**Row ID:** Mã số dòng – định danh duy nhất cho mỗi dòng dữ liệu, dùng để đánh dấu từng dòng.
 
 **Order ID:** Mã đơn hàng – định danh duy nhất cho mỗi đơn hàng. Có thể lặp lại nếu một đơn hàng chứa nhiều sản phẩm.
 
 **Order Date:** Ngày khách hàng đặt hàng.
 
-**Ship Date:** Ngày hàng được giao đi (khởi hành từ kho).   
+**Ship Date:** Ngày hàng được giao đi.   
 
-**Ship Mode:** Phương thức giao hàng (ví dụ: First Class, Second Class, Same Day, Standard Class).
+**Ship Mode:** Phương thức giao hàng.
 
 **Customer ID:** Mã định danh khách hàng.
 
 **Customer Name:** Tên khách hàng.
 
-**Segment:** Phân khúc khách hàng (Consumer - cá nhân, Corporate - công ty, Home Office - văn phòng tại nhà).
+**Segment:** Phân khúc khách hàng.
 
 **City:** Thành phố nơi giao hàng.
 
-**State:** Bang/tỉnh nơi giao hàng (phổ biến ở Mỹ).
+**State:** Bang/tỉnh nơi giao hàng.
 
 **Country:** Quốc gia nơi giao hàng.
 
 **Postal Code:** Mã bưu chính khu vực giao hàng.
 
-**Market:** Thị trường khu vực (ví dụ: US, EU, APAC, Africa...).
+**Market:** Thị trường khu vực.
 
-**Region:** Vùng/khu vực địa lý (ví dụ: West, East, Central...).
+**Region:** Vùng/khu vực địa lý. 
 
 **Product ID:** Mã sản phẩm.
 
-**Category:** Danh mục sản phẩm (ví dụ: Furniture, Office Supplies, Technology). 
+**Category:** Danh mục sản phẩm.
 
-**Sub-Category:** Danh mục con (ví dụ: Chairs, Binders, Phones...).
+**Sub-Category:** Danh mục con.
 
 **Product Name:** Tên sản phẩm.
 
-**Sales:** Doanh thu (giá trị bán ra của sản phẩm).
+**Sales:** Doanh thu.
 
 **Quantity:** Số lượng sản phẩm được bán trong dòng đó.
 
-**Discount:** Mức giảm giá (theo tỷ lệ %, ví dụ: 0.1 là 10%).
+**Discount:** Mức giảm giá.
 
-**Profit:** Lợi nhuận (Sales – Chi phí).
+**Profit:** Lợi nhuận.
 
 **Shipping Cost:** Chi phí vận chuyển cho dòng sản phẩm đó.
 
-**Order Priority:** Mức độ ưu tiên của đơn hàng (ví dụ: Low, Medium, High, Critical).
+**Order Priority:** Mức độ ưu tiên của đơn hàng.
