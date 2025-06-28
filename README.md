@@ -1,4 +1,6 @@
-# MÔ TẢ DỮ LIỆU                                            
+# Đồ án nhóm môn Python trong Phân tích kinh doanh
+**Tên đề tài: Phân tích dữ liệu kinh doanh của Germany**
+## MÔ TẢ DỮ LIỆU                                            
 **Row ID:** Mã số dòng – định danh duy nhất cho mỗi dòng dữ liệu, dùng để đánh dấu từng dòng.
 
 **Order ID:** Mã đơn hàng – định danh duy nhất cho mỗi đơn hàng. Có thể lặp lại nếu một đơn hàng chứa nhiều sản phẩm.
