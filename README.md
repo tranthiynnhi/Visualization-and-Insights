@@ -1,50 +1,45 @@
-# Đồ án nhóm môn Python trong Phân tích kinh doanh
-**Tên đề tài: Phân tích dữ liệu kinh doanh của Germany**
-## MÔ TẢ DỮ LIỆU                                            
-**Row ID:** Mã số dòng – định danh duy nhất cho mỗi dòng dữ liệu, dùng để đánh dấu từng dòng.
+# Group project - Python for Business Analytics
+## Objective
 
-**Order ID:** Mã đơn hàng – định danh duy nhất cho mỗi đơn hàng. Có thể lặp lại nếu một đơn hàng chứa nhiều sản phẩm.
+Perform data cleaning, visualization, and insight extraction on sales transactions to uncover trends and suggest business strategies.
+## Methodology
 
-**Order Date:** Ngày khách hàng đặt hàng.
+1. Data Cleaning
 
-**Ship Date:** Ngày hàng được giao đi.   
+- Handled missing values, removed duplicates, corrected data types.
 
-**Ship Mode:** Phương thức giao hàng.
+2. Exploratory Data Analysis (EDA)
 
-**Customer ID:** Mã định danh khách hàng.
+- Analyzed sales performance by category, region, and time period.
 
-**Customer Name:** Tên khách hàng.
+- Detected seasonal fluctuations.
 
-**Segment:** Phân khúc khách hàng.
+3. Visualization
 
-**City:** Thành phố nơi giao hàng.
+- Used Matplotlib & Seaborn for bar charts, line charts, heatmaps.
 
-**State:** Bang/tỉnh nơi giao hàng.
+4. Insight Extraction
 
-**Country:** Quốc gia nơi giao hàng.
+- Identified underperforming product categories.
 
-**Postal Code:** Mã bưu chính khu vực giao hàng.
+- Found strong seasonal patterns in sales.
 
-**Market:** Thị trường khu vực.
+## Results & Insights
 
-**Region:** Vùng/khu vực địa lý. 
+- Sales peak in certain months (seasonality) → suggest better inventory planning.
 
-**Product ID:** Mã sản phẩm.
+- Some categories underperform consistently → recommend targeted promotions.
 
-**Category:** Danh mục sản phẩm.
+- Customer segmentation reveals differences in purchasing frequency and basket size.
 
-**Sub-Category:** Danh mục con.
+## Business Impact
 
-**Product Name:** Tên sản phẩm.
+- Enable data-driven decision-making in inventory management and marketing campaigns.
 
-**Sales:** Doanh thu.
+- Improve sales forecasting and customer targeting.
+## Technology
 
-**Quantity:** Số lượng sản phẩm được bán trong dòng đó.
+- Pandas, NumPy
 
-**Discount:** Mức giảm giá.
+- Matplotlib, Seaborn
 
-**Profit:** Lợi nhuận.
-
-**Shipping Cost:** Chi phí vận chuyển cho dòng sản phẩm đó.
-
-**Order Priority:** Mức độ ưu tiên của đơn hàng.
